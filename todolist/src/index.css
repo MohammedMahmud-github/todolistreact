@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    overflow-x: hidden;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1.5em;
+    background: linear-gradient(90deg, rgba(255,112,112,1) 0%, rgba(255,0,117,1) 100%);
+        color: white;
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+}
+
+.card {
+    width: 35%;
+    margin: auto;
+    background: #141010;
+    padding: 1em;
+    margin-top: 3.5em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+    min-height: 62vh;
+    box-shadow: 0px 0px 70px 20px rgba(255,0,117,1);
+
+
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 50%;
+    height: fit-content;
+}
+
+button:hover {
+    border:2px solid white;
+    transition: 0.5s;
+
+}
+
+button{
+  border-radius: 1em;
+  border: 2px solid rgba(255,0,117,1);
+  background: none;
+  color: white;
+  background-color: rgba(255,0,117,1);
+  padding: 0.1em 1em 15em;
+  margin: 20em 3em;
+  transition: 0.2s;
+  margin-top: 1em;
+
+}
+input{
+  background: none;
+  border: none;
+  border-bottom: 2px rgba(255,0,117,1) solid;
+  padding: 1em 2em;
+  padding-left: 0;
+  color: white;
+  width: 50%;
+}
+input:focus {
+    outline: none;
+}
+.individualTask{
+    padding: 12px 8px 12px;
+    
+    
+}
